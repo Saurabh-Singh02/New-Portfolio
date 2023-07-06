@@ -31,6 +31,21 @@ nav .navbar{
     text-decoration: none;
 }
 
+.hamburger{
+    display: none;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hamb-lines{
+    width: 25px;
+    height: 2px;
+    padding: 2px;
+    margin: 2px;
+    background-color: black;
+}
+
 /* main content */
 
 .first-container{
@@ -122,6 +137,9 @@ nav .navbar{
 @media only screen and (max-width: 700px) {
     .navbar ul{
         display: none;
+    }
+    .hamburger{
+        display: flex;
     }
     .first-container{
         min-height: 80vh;
