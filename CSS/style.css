@@ -29,7 +29,7 @@ nav .navbar{
     text-decoration: none;
 }
 
-.grid-container{
+.first-container{
     display: grid;
     grid-template-columns: 3fr 2fr;
     height: 60vh;
@@ -37,19 +37,19 @@ nav .navbar{
     margin: 0 0 3rem 0;
 }
 
-.grid-container .left h1 span{
+.first-container .first-left h1 span{
     color: #720272;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.8rem;
 }
-.grid-container .left{
+.first-container .first-left{
     display: flex;
     justify-content: center;
     align-items: center;
     /* background-color: whitesmoke; */
 }
 
-.grid-container .right{
+.first-container .first-right{
     /* background-color: whitesmoke; */
     display: flex;
     justify-content: center;
@@ -60,7 +60,7 @@ nav .navbar{
     background-color: #af00af;
 }
 
-.grid-container .right img{
+.first-container .first-right img{
     width: 80%;
     height: auto;
 }
