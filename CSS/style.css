@@ -14,7 +14,7 @@ nav .navbar{
     justify-content: space-between;
     align-items: center;
     height: 10vh;
-    padding: 0 2rem;
+    padding: 0 1vw;
 }
 
 .navbar ul{
@@ -53,7 +53,7 @@ nav .navbar{
     grid-template-columns: 3fr 2fr;
     height: 60vh;
     gap: 2px;
-    margin: 0 0 3rem 0;
+    margin: 1rem 1rem 3rem 1rem;
 }
 
 .first-container .first-left h1 span{
@@ -135,8 +135,16 @@ nav .navbar{
 }
 
 @media only screen and (max-width: 700px) {
+    nav .navbar{
+        padding: 0 1rem;
+    }
     .navbar ul{
         display: none;
+        position: absolute;
+        width: 100%;
+        background-color: #fff;
+        top: 50px;
+        right: 0px;
     }
     .hamburger{
         display: flex;
