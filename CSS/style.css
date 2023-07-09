@@ -11,8 +11,19 @@
 img{
     display: block;
 }
+.dark-theme{
+    background-color: black;
+    color: white;
+}
+
 
 /* header content */
+.themebutton{
+    color: black;
+}
+.button-light{
+    color: white;
+}
 nav .navbar{
     display: flex;
     justify-content: space-between;
@@ -37,10 +48,10 @@ nav .navbar{
 
 .hamburger{
     display: none;
-    /* display: flex; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 .hamb-lines{
     width: 25px;

@@ -12,3 +12,11 @@ function hambtogg() {
          }
      }
    }
+
+   function ThemeChange() {
+    var element = document.getElementById("body");
+    element.classList.toggle("dark-theme");
+    var elembutton = document.getElementById("themebtn");
+    elembutton.classList.toggle("button-light");
+
+   }
