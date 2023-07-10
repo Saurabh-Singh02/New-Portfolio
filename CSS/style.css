@@ -93,25 +93,6 @@ nav .navbar{
     height: auto;
 }
 
-/* .second-container{
-    height: 60vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: #af00af;
-    gap: .5rem;
-    padding: 1rem;
-}
-.second-container .box-heading{
-    grid-column: span 3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.second-container .boxes{
-    border: 1px solid black;
-    border-radius: 10px; 
-}
-*/
 /* footer content */
 .footer-container{
     display: grid;
