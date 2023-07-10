@@ -5,7 +5,7 @@ function hambtogg() {
          if(x.style.display ==="none")
          {
              x.style.display = "block";
-             y.style.backgroundColor = "#ff7300";
+             y.style.backgroundColor = "#177caf";
             }else {
                 x.style.display = "none";
                 y.style.backgroundColor = "#ffffff";
@@ -18,5 +18,4 @@ function hambtogg() {
     element.classList.toggle("dark-theme");
     var elembutton = document.getElementById("themebtn");
     elembutton.classList.toggle("button-light");
-
    }
