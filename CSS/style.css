@@ -118,7 +118,6 @@
   
   .footer-left {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
@@ -126,7 +125,7 @@
   .footer-left a {
     text-decoration: none;
     padding: 2px;
-    margin: 0.1rem 0;
+    margin: 0.1rem .5rem;
   }
   
   .footer-mid {
@@ -166,11 +165,12 @@
       background-color: var(--THEMECOLOR);
       top: 50px;
       right: 0px;
+      padding:5px 0px;
     }
   
     .navbar ul li {
       display: block;
-      padding: 10px 5px;
+      padding: 5px 5px;
     }
   
     .navbar ul a {
@@ -209,6 +209,12 @@
     .first-container .first-right {
       justify-content: center;
       align-items: center;
+    }
+    .footer-container{
+      grid-template-columns: 1fr;
+    }
+    .footer-left, .footer-right,.footer-mid{
+      padding: 5px;
     }
   }
   
